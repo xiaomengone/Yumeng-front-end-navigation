@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <title>玉猛 - 前端导航网站</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./img/bitbug_favicon.ico" />
+  </head>
+  <body>
+    <div class="back"></div>
+    <!-- 网页背景 -->
+    <div class="HeaderTitle">
+      <img src="./img/google.png" alt="google图片" />
+    </div>
+    <header class="globalHeader">
+      <form class="searchForm" method="get" action="https://cn.bing.com/search">
+        <input type="text" name="q" />
+        <button type="submit">搜索</button>
+      </form>
+      <script src="./jQuery.js"></script>
+    </header>
+    <main class="globalMain">
+      <ul class="siteList">
+        <li>
+          <div class="addButton">
+            <div class="icon-s">
+              <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-add"></use>
+              </svg>
+            </div>
+            <div class="text">新增网站</div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <script src="//at.alicdn.com/t/font_3200382_ne5wow6utce.js"></script>
+    <!-- 加号icon图标 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

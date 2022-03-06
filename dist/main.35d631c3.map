@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.js"],"names":["console","log","$"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAAA,QAAQC,GAAR,CAAYC,CAAZ","file":"main.35d631c3.map","sourceRoot":"..\\src","sourcesContent":["console.log($);"]}

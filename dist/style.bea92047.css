@@ -1,0 +1,109 @@
+/*css reset */
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul li {
+  list-style: none;
+}
+.icon {
+  /*加号icon图标*/
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* style */
+
+/*Header开始*/
+body {
+  background: #eeeeee;
+}
+.globalHeader {
+  margin: 26px 13px 18px 32px;
+  display: flex;
+  justify-content: space-between;
+}
+.searchForm {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
+.searchForm > input {
+  height: 40px;
+  width: 100%;
+  margin-right: 46px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 0 10px;
+  background: #ffffff;
+}
+.searchForm > button {
+  width: 100px;
+  height: 40px;
+  white-space: nowrap;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #0282b9;
+}
+
+/*main开始*/
+.globalMain {
+  margin: 0 13px 18px 32px;
+}
+.siteList > li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+.site,
+.addButton {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+.site .logo {
+  width: 64px;
+  height: 64px;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+.site .link {
+  font-size: 14px;
+  color: #000000;
+}
+.icon-s {
+  width: 64px;
+  height: 64px;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addButton .text {
+  font-size: 13px;
+}
